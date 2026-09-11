@@ -1,1 +1,4 @@
+2025001;mario;Pérez González;Informática;100
+2025002;María;Rodríguez López;Administración;88
 2025003;Carlos;Méndez Vargas;Derecho;92
+504550757;Randall;Alvarez Chevez;Ingeniería en Sistemas;90

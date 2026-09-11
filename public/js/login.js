@@ -17,4 +17,8 @@ formLogin.addEventListener("submit", async (evento) => {
 
     mensaje.textContent = resultado.mensaje;
     mensaje.style.color = resultado.exito ? "green" : "red";
+
+    if (resultado.exito) {
+        window.location.href = "/estudiantes/pagina";
+    }
 });

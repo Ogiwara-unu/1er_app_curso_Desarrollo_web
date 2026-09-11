@@ -4,8 +4,8 @@
  * ==========================================
  */
  
-const Estudiante = require("../models/Estudiante");
-const EstudianteService = require("../services/EstudianteService");
+const Estudiante = require("../models/estudiante");
+const EstudianteService = require("../services/estudianteService");
  
 /*=========================================
   Listar estudiantes

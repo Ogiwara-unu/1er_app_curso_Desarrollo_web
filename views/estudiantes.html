@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD de Estudiantes</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main class="card card-ancho">
+        <h1>CRUD DE ESTUDIANTES</h1>
+        <h2>Randall ÁLVAREZ CHEVEZ</h2>
+
+        <div class="formulario">
+            <label for="carne">Carné</label>
+            <input type="text" id="carne" name="carne">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos">
+
+            <label for="carrera">Carrera</label>
+            <input type="text" id="carrera" name="carrera">
+
+            <label for="promedio">Promedio</label>
+            <input type="text" id="promedio" name="promedio">
+        </div>
+
+        <div class="botonera">
+            <button id="btn-guardar">Guardar</button>
+            <button id="btn-modificar">Modificar</button>
+            <button id="btn-eliminar">Eliminar</button>
+            <button id="btn-consultar">Consultar</button>
+            <button id="btn-limpiar">Limpiar</button>
+            <button id="btn-salir">Salir</button>
+        </div>
+
+        <p id="mensaje"></p>
+
+        <h2>Lista de estudiantes</h2>
+        <table id="tabla-estudiantes">
+            <thead>
+                <tr>
+                    <th>Carné</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Carrera</th>
+                    <th>Promedio</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="/js/estudiantes.js"></script>
+</body>
+</html>

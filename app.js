@@ -56,12 +56,12 @@ Servidor
 =================================
 */
  
-app.listen(3000,()=>{
- 
+app.listen(2000,()=>{
+
     console.log(
-        "Servidor iniciado en puerto 3000"
+        "Servidor iniciado en puerto 2000"
     );
- 
+
 });
  
  
